@@ -1,3 +1,5 @@
+//TODO: Add your imports here.
+
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -19,13 +21,14 @@ const List<String> currenciesList = [
   'SEK',
   'SGD',
   'USD',
-  'ZAR'
+  'ZAR',
 ];
 
-const List<String> cryptoList = [
-  'BTC',
-  'ETH',
-  'LTC',
-];
+const List<String> cryptoList = ['BTC', 'ETH', 'LTC'];
 
-class CoinData {}
+const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
+const apiKey = 'YOUR-API-KEY-HERE';
+
+class CoinData {
+  //TODO: Create your getCoinData() method here.
+}
